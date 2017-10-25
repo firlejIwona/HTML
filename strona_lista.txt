@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title> FIRMEX </title>
+	</head>
+	<body>
+		<h1> <b>Firma remontowo-budowlana Firmex</b> </h1>
+		<p>Firma zajmuje siê prowadzeniem robót remontowo-budowlanych od 1999 roku</p>
+		<hr />
+		<p>Zakres naszych us³ug obejmuje m.in.:</p>
+		<ul>
+			<li>malowanie</li>
+			<li>szpachlowanie</li>
+			<li>krycie i obróbki blacharskie</li>
+			<li>monta¿ paneli</li>
+			<li>tapetowanie</li>
+			<li>uk³adanie glazury i terakoty</li>
+		</ul>
+		<hr />
+		<p><b><i>Telefon kontaktowy:</b></i> 608 458 789</p>
+		<p><b><i> e-mail:</b></i> firmex1999@gmail.com</p>
+		<p> <acronym title ="Numer Identyfikacji Podatkowej"> NIP </acronym>   683 1121 36 29 </p>	
+
+	</body>
+</html>
+
+
