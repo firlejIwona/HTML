@@ -1,0 +1,10 @@
+body{
+	background-color: #f1f1f1;
+	font-family: Baskerville Old Face, Bell MT, Times New Roman;
+	font size: 32 px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	height: 300 px;
+	width: 300 px;
+	
+}
