@@ -1,5 +1,5 @@
 body{
-background-image: url("D:/html/GIT/images/man-2748352_1280KOPIA.jpg");
+background-image: url("D:/html/GIT/images/abstract-1846822_1280.jpg");
 background-color:#333333;
 background-size:cover;
 background-repeat: no-repeat; 
@@ -12,7 +12,7 @@ min-width: 320px;
 }
 
 
-
+/*
 #header{
 	
 	
@@ -36,12 +36,16 @@ min-width: 320px;
 
 }
 	
-	#header a{color: #F6FFFE;}
+	/*#header a{color: #F6FFFE;}
 	#header a:link {color:#F6FFFE;}/*white*/
-	#header a:hover{color:#FFA017;}/*orange*/
-	#header a:visited {color:#F6FFFE}/**/
+/*	#header a:hover{color:#FFA017;}/*orange*/
+	/*#header a:visited {color:#F6FFFE}/**/ 
 	
 
+	#top_panel1 a{color: #F6FFFE;}
+	#top_panel1 a:link {color:#F6FFFE;}/*white*/
+	#top_panel1 a:hover{color:#FFA017;}/*orange*/
+    #top_panel1 a:visited {color:#D2D2D2; }/**/ 
 
 #contact{
 	font-size: 10px;
@@ -68,9 +72,6 @@ img.phone{
 	width: 8%;
 	height: 8%;
 	margin:15% auto 0% 0%;
-
-	/* !!!! inne ustawienia dla mniejszej rozdzielczosci
-	;*/
 }
 #contact2{
 	font-size: 10px;
@@ -163,44 +164,6 @@ img.email2{
 	#contact2 a:visited {color:#333333}/*grey*/
 
 
-/*
-	.loading{
-	margin: 0px;
-	font-size: 24px;
-	width: 95px;
-	height: 95px;
-	position:absolute;
-	left:100px;
-	top:50px;
-	border-radius: 50%;
-	animation: animation 4s infinite ease-in-out 5 alternate-reverse ;
-
-}
-@keyframes animation{
-	0% {
-		transform: rotate(0deg);
-		box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
-	}
-	5%,
-	95% {
-		box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
-	}
-	10%,
-	59% {
-		box-shadow: 0 -0.83em 0 -0.4em #F34A53, -0.087em -0.825em 0 -0.42em #F34A53, -0.173em -0.812em 0 -0.44em #F34A53, -0.256em -0.789em 0 -0.46em #F34A53, -0.297em -0.775em 0 -0.477em #F34A53;
-	}
-	20% {
-		box-shadow: 0 -0.83em 0 -0.4em #F34A53, -0.338em -0.758em 0 -0.42em #F34A53, -0.555em -0.617em 0 -0.44em #F34A53, -0.671em -0.488em 0 -0.46em #F34A53, -0.749em -0.34em 0 -0.477em #F34A53;
-	}
-	38% {
-		box-shadow: 0 -0.83em 0 -0.4em #F34A53, -0.377em -0.74em 0 -0.42em #F34A53, -0.645em -0.522em 0 -0.44em #F34A53, -0.775em -0.297em 0 -0.46em #F34A53, -0.82em -0.09em 0 -0.477em #F34A53;
-	}
-	100% {
-		transform: rotate(360deg);
-		box-shadow: 0 -0.83em 0 -0.4em #F34A53, 0 -0.83em 0 -0.42em #F34A53, 0 -0.83em 0 -0.44em #F34A53, 0 -0.83em 0 -0.46em #F34A53, 0 -0.83em 0 -0.477em #F34A53;
-	}
-}
-*/
  
 
  #top_panel{
@@ -216,6 +179,21 @@ img.email2{
 	margin:auto auto 1% auto;
 	padding:1% 0% 1% 2% ;
 	
+ }
+ #top_panel1{
+ 	font-size: 32px;
+	font-family: Bernard MT Condensed, Bell MT, Times New Roman;
+	color: #F6FFFE;
+	letter-spacing: 0.2em;
+	text-align: center;
+	background-color: #333333;
+	border-color:#333333;
+	width: 100%;
+	height: 30%;
+	margin:15% auto 0% auto;
+	padding:1% 0% 1% 0% ;
+	
+
  }
  #services{
  	font-size: 30px;
@@ -254,104 +232,210 @@ img.email2{
  	
 	text-align:left;
  	margin:8% 2% 5% 2%;
+
  	}
 
  	figure img{
  		
  	max-width:65%;
- 	border: 1.5px solid #AD3C15;
-
-
-
+ 	border: 1px solid white;
  	
  	}
  	figcaption {
  		
   	font-size: 22px;
-	font-family: Bernard MT Condensed,Times New Roman;
+	font-family: Century Gothic, Times New Roman;
 	color: white;
 	letter-spacing: 0.04em;
-		
-
-
 
  	}
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		img.phone,img.email{
- 		width: 15%;
-		height: 15%;
-		margin:90% -3% 0% 2%;
- 		}
- 	}
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		#header{
- 		width: 130px;
-		height:130px;
-		margin: 30% 0% 0% 25%;
-		text-align: center;
-		font-size: 36px;
- 		}
- 	}
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		#top_panel{
- 			width:100%;
- 			height:20%;
- 			margin:1% auto 3% 0% ;
- 			font-size:24px;
- 		}
- 	}
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		#services{
- 			width:70%;
- 			height:20%;
- 			margin:1% auto 3% 0%;
- 			font-size:20px;
- 		}
- 	}
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		.work, .work2{
- 			display:inline-flex;
- 			width:40%;
+ 	 @media all and (min-device-width:320px) and (max-device-width:750px){
+   img.phone,img.email{
+   width: 15%;
+  height: 15%;
+  margin:90% -3% 0% 2%;
+   }
+  }
+   @media all and (min-device-width:751px) and (max-device-width:1279px){
+   img.phone,img.email{
+   width: 13%;
+  height: 13%;
+  margin:80% -3% 0% 2%;
+   }
+  }
+  @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   img.phone,img.email{
+   width: 7%;
+  height: 7%;
+  margin:13% -3% 0% 2%;
+   }
+  }
+  @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   #contact,#contact2{
+   font-size: 16px;
+   margin-left: 1%;
+   }
+  }
+   @media all and (min-device-width:751px) and (max-device-width:1279px){
+   #contact,#contact2{
+   font-size: 20px;
+   margin-left: 1%;
+   }
+  }
 
-		}
- 	
- 	}
+   @media all and (min-device-width:320px) and (max-device-width:750px){
+   #top_panel1{
+  margin-top:50%;
+  margin-left: 0%;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 0.1em;
+   }
+  }
+   @media all and (min-device-width:751px) and (max-device-width:1279px){
+   #top_panel1{
+  margin-top:20%;
+  margin-left: 0%;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0.3em;
+   }
+  }
+   @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   #top_panel1{
+  margin-top:13%;
+  margin-left: 0%;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0.3em;
+   }
+  }
+
+   
+  @media all and (min-device-width:320px) and (max-device-width:750px){
+   #top_panel{
+    width:100%;
+    height:20%;
+    margin:1% auto 3% 0% ;
+    font-size:20px;
+    
+   }
+  }
+   @media all and (min-device-width:751px) and (max-device-width:1279px){
+   #top_panel{
+    width:100%;
+    height:20%;
+    margin:1% auto 3% 0% ;
+    font-size:28px;
+    letter-spacing: 0.3em;
+    
+   }
+  }
+   @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   #top_panel{
+    letter-spacing: 0.3em;
+    font-size:32px;
+    
+   }
+  }
+ 
+    @media all and (min-device-width:320px) and (max-device-width:750px){
+   #services{
+    width:70%;
+    height:20%;
+    margin:1% auto 3% 0%;
+    font-size:15px;
+   }
+  }
+   @media all and (min-device-width:751px) and (max-device-width:1279px){
+   #services{
+    width:45%;
+    height:20%;
+    margin:1% auto 10% 0%;
+    font-size:24px;
+   }
+  }
+  @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   #services{
+    width:25%;
+    height:20%;
+    margin:1% auto 3% 0%;
+    font-size:22px;
+   }
+  }
+  @media all and (min-device-width:320px) and (max-device-width:750px){
+   .work, .work2{
+    display:inline-flex;
+    width:35%;
+  }
+  }
  @media all and (min-device-width:320px) and (max-device-width:750px){
- 		figcaption, figure img{
- 			font-size:16px;
- 			display:flex;
- 			max-width:80%;
- 			
- 		}
- 	
- 	}
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		img.phone2,img.email2{
- 		width: 10%;
-		height: 10%;
-	
-	}
-		
- 	@media all and (min-device-width:320px) and (max-device-width:750px){
- 		#contact3, #contact4 {
- 		font-size:12px;
- 		 	
-		
- 		}
+   figcaption, figure img{
+    font-size:16px;
+    display:flex;
+    max-width:80%;
+      }
+  }
+   @media all and (min-device-width:751px) and (max-device-width:1279px){
+   figcaption, figure img{
+    font-size:19px;
+    display:flex;
+    max-width:90%;
+      }
+  }
+   @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   figcaption, figure img{
+    font-size:20px;
+    display:flex;
+    max-width:60%;
+   }
+  }
+ 
+  @media all and (min-device-width:320px) and (max-device-width:750px){
+   #contact3, #contact4 {
+   font-size:12px;
+   }
 }
 @media all and (min-device-width:320px) and (max-device-width:639px){
- 		img.phone2,img.email2{
- 		width: 10%;
-		height: 10%;
-		margin-top: 20%;
-	
-	}
-		
- 	@media all and (min-device-width:320px) and (max-device-width:639px){
- 		#contact3, #contact4 {
- 		font-size:12px;
- 		margin-top: 20%;
- 		 	
-		
- 		}
+   img.phone2,img.email2{
+   width: 10%;
+  height: 10%;
+  margin-top: 20%;
+ }
 }
+  @media all and (min-device-width:320px) and (max-device-width:639px){
+   #contact3, #contact4 {
+   font-size:12px;
+   margin-top: 20%;
+   }
+}
+@media all and (min-device-width:751px) and (max-device-width:1279px){
+   img.phone2,img.email2{
+   width:10%;
+  height: 10%;
+  margin-top: 28%;
+
+ }
+}
+  @media all and (min-device-width:751px) and (max-device-width:1279px){
+   #contact3, #contact4 {
+   font-size:16px;
+   margin-top: 32%;
+   margin-left:1%
+   clear:left;
+   }}
+@media all and (min-device-width:1280px) and (max-device-width:2000px){
+   img.phone2,img.email2{
+   width: 6%;
+  height: 6%;
+  margin-top: 8%;
+
+ }
+}
+  @media all and (min-device-width:1280px) and (max-device-width:2000px){
+   #contact3, #contact4 {
+   font-size:16px;
+   margin-top: 12%;
+   margin-left:1%
+   clear:left;
+   }}
